@@ -69,7 +69,21 @@ var says = [
   "Tristan has a stamina+ gamepass",
   "Whos god? never heard of em'.",
   "Hi guys :3",
-  "Who wants a splash text?"
+  "Who wants a splash text?",
+  "I love you reece",
+  "Reece is my pookie bear (no homo)",
+  "Im spiderman, dont tell anybody",
+  "Im batman, dont tell anybody",
+  "Im The Flash, dont tell anybody.",
+  "Im Green Lantern, dont tell anybody.",
+  "49ERS SUCK!",
+  "Whos marco? oh yeah, hes the small black dude.",
+  "Im literally superman.",
+  "Im superman, dont tell anybody",
+  "Enrique has a small pp.",
+  "Amad4uz on everything (add me.)",
+  "Over 80 splash texts!",
+ 
 
 ];
 
