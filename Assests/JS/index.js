@@ -1,5 +1,23 @@
+function checkCookie(key) {
+  var value = "; " + document.cookie; // get the cookie value
+  var parts = value.split("; " + key + "="); // split the value by the key
+  if (parts.length == 2) {
+    return true; // the key exists
+  } else {
+    return false; // the key does not exist
+  }
+}
+
+var key = "myKey"; // set the key to check for
+if (!checkCookie(key)) { // if the key does not exist in the cookie
+  alert("OK, you're probably gonna click the OK button under this, but i NEED MONEY! GIVE ME YOUR MONEY! (so V6 can come out in a few weeks if i make enough) bcs i need some sort of motivation. IK im yapping my head off but like give me your damn money!"); // display an alert message
+  var expirationDate = new Date(); // create a new date object
+  expirationDate.setFullYear(expirationDate.getFullYear() + 1); // set the expiration date to one year from now
+  document.cookie = key + "=true; expires=" + expirationDate.toUTCString(); // create the cookie with the key and expiration date
+}
+
 var says = [
-  "Is That a Railin Reference?",
+  "Is That a G0dly Games Reference?",
   "Please Stop Being Racist In The DISC0RD",
   "tinyurl.com/RailinDev",
   "Your one and only Unbl0cked Playground",
@@ -8,7 +26,7 @@ var says = [
   "GD 2.2 OCTOBER 2023!!!",
   "yowoodTodd",
   "Bot",
-  "RAILIN 2.0!",
+  "Godly games 5.0!",
   "stop asking where disc0rd is. its in widgetbot",
   "blogs was usless",
   "so was secrets",
@@ -42,6 +60,17 @@ var says = [
   "amog",
   "💀",
   "hey e-kitten",
+  "Ethan is peter griffin",
+  "Enrique is a gayboy",
+  "Aadit? Care to explain?",
+  "AMBOUTTAKAMM",
+  "Guys i need money",
+  "Macarios? Oh.. I call him macaroni!",
+  "Tristan has a stamina+ gamepass",
+  "Whos god? never heard of em'.",
+  "Hi guys :3",
+  "Who wants a splash text?"
+
 ];
 
 function splashText() {
